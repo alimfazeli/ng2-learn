@@ -24,6 +24,9 @@
   },
   "files": [
     "./dev/app.component.ts",
-    "./dev/boot.ts"
+    "./dev/boot.ts",
+    "./dev/navigation.component.ts",
+    "./dev/register.component.ts",
+    "./dev/security.component.ts"
   ]
 }

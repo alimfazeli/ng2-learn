@@ -1,0 +1,11 @@
+<form action="#">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Name..." #nameInput (keyup)="0">
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Email..." #emailInput (keyup)="0">
+  </div>
+  <button class="btn btn-primary" [disabled]="!(nameInput.value && emailInput.value )">
+      Register me!!
+  </button>
+</form>
